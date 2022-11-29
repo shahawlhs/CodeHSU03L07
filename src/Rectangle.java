@@ -29,8 +29,8 @@ public class Rectangle
     // Otherwise .equals has the same behavior as ==
     // Often classes have their own equals method, which can
     // be used to determine whether two objects of the class are equivalent.
-    /*public boolean equals(Rectangle other)
+    public boolean equals(Rectangle other)
     {
         return width == other.getWidth() && height == other.getHeight();
-    }*/
+    }
 }
